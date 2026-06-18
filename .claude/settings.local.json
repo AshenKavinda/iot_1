@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "Bash(find \"e:/NextGen/campus_projects/Iot_smat_water_filling_system\" -name \"google-services.json\" -type f)",
+      "Read(//e/NextGen/campus_projects/Iot_smat_water_filling_system/**)",
+      "Bash(Copy-Item \"e:\\\\NextGen\\\\campus_projects\\\\Iot_smat_water_filling_system\\\\iot\\\\android\\\\app\\\\google-services.json\" -Destination \"e:\\\\NextGen\\\\campus_projects\\\\Iot_smat_water_filling_system\\\\clone\\\\iot_2\\\\android\\\\app\\\\google-services.json\" -Force)",
+      "Bash(Write-Host \"Copied google-services.json\")",
+      "Bash(flutter pub *)",
+      "Read(//c/Users/Ashen/AppData/Local/Android/Sdk/**)",
+      "Bash(flutter doctor *)",
+      "Bash(flutter build *)",
+      "Bash(flutter clean *)"
+    ]
+  }
+}

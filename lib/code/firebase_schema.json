@@ -1,0 +1,42 @@
+{
+  "status": {
+    "sensorA":        0,
+    "sensorB":        0,
+    "sensorC":        1,
+    "pumpRunning":    false,
+    "autoFillActive": false,
+    "manualOverride": false,
+    "stopReason":     "idle",
+    "timestamp":      0,
+    "flow": {
+      "flowRateLPM":          0.0,
+      "sessionLitres":        0.0,
+      "totalLitresSinceBoot": 0.0
+    }
+  },
+
+  "pump": {
+    "manualOverride": false
+  },
+
+  "history": {
+    "flow": {
+      "-PUSH_ID_1": {
+        "sensorA":       0,
+        "sensorB":       0,
+        "sensorC":       1,
+        "pumpRunning":   true,
+        "flowRateLPM":   5.2,
+        "sessionLitres": 3.1,
+        "epochMs":       1700000000000
+      }
+    },
+    "sessions": {
+      "1700000000000": {
+        "startReason":   "auto_fill",
+        "stopReason":    "tank_full",
+        "litresPumped":  120.5
+      }
+    }
+  }
+}

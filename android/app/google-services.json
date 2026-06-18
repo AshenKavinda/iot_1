@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "891008958889",
+    "firebase_url": "https://iot-2026-tharuka-default-rtdb.firebaseio.com",
+    "project_id": "iot-2026-tharuka",
+    "storage_bucket": "iot-2026-tharuka.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891008958889:android:4d9696e71c533f601004b8",
+        "android_client_info": {
+          "package_name": "com.example.iot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO348XpRIIAn9TJIjvA7mOOmxnwBbvWPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891008958889:android:bcd30333598cf16e1004b8",
+        "android_client_info": {
+          "package_name": "com.example.iot_hasith"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO348XpRIIAn9TJIjvA7mOOmxnwBbvWPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
