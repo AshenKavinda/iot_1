@@ -12,9 +12,17 @@ import 'theme/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  debugPrint('[FIREBASE] Initializing with platform: ${DefaultFirebaseOptions.currentPlatform.projectId}');
+  debugPrint('[FIREBASE] Database URL: ${DefaultFirebaseOptions.currentPlatform.databaseURL}');
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+    debugPrint('[FIREBASE] Initialized successfully');
+  } catch (e, stack) {
+    debugPrint('[FIREBASE] Initialization FAILED: $e');
+    debugPrint('[FIREBASE] Stack: $stack');
+  }
   runApp(
     MultiProvider(
       providers: [

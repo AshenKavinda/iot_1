@@ -42,13 +42,13 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCrJsZus4m4zRCWZ3K2Aq84-OMCZeSWo2o',
-    appId: '1:891008958889:web:406d73c020e21b8f1004b8',
+    appId: '1:891008958889:web:32b370126fc7077f1004b8',
     messagingSenderId: '891008958889',
     projectId: 'iot-2026-tharuka',
     authDomain: 'iot-2026-tharuka.firebaseapp.com',
     databaseURL: 'https://iot-2026-tharuka-default-rtdb.firebaseio.com',
     storageBucket: 'iot-2026-tharuka.firebasestorage.app',
-    measurementId: 'G-3VX43KX3FB',
+    measurementId: 'G-NZWYYQ9T26',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
